@@ -6,8 +6,8 @@ import openai
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-openai.api_key = os.getenv("OPENAI_API_KEY")
+BOT_TOKEN = os.getenv("8381392044:AAHXY2eSJtoSl7RHI3SFp-EqIPfPBUtV1yw")
+openai.api_key = os.getenv("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")
 
 async def start(update: Update, context):
     await update.message.reply_text(
